@@ -92,6 +92,9 @@ final class Parser {
             if let set = c["set"] as? String {
                 card.set = set
             }
+            if let setName = c["setName"] as? String {
+                card.setName = setName
+            }
             if let text = c["text"] as? String {
                 card.text = text
             }

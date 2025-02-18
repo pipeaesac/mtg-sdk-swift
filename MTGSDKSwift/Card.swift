@@ -26,6 +26,7 @@ public struct Card: Equatable {
     public var subtypes: [String]?
     public var rarity: String?
     public var set: String?
+    public var setName: String?
     public var text: String?
     public var artist: String?
     public var number: String?

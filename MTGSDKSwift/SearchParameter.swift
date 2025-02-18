@@ -27,6 +27,7 @@ public class CardSearchParameter: SearchParameter {
         case rarity
         case text
         case set
+        case setName
         case artist
         case power
         case toughness

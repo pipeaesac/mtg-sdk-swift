@@ -34,7 +34,7 @@ final class URLManager {
         urlComponents.queryItems = buildQueryItemsFromParameters(parameters)
         
         if Magic.enableLogging == true {
-            print("URL: \(urlComponents.url)\n")
+            print("URL: \(String(describing: urlComponents.url))\n")
         }
         
         return urlComponents.url
